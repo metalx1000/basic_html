@@ -17,7 +17,7 @@
       Kris Occhipinti
   </author>
   <plugin name="cordova-plugin-whitelist" spec="1" />
-  <access origin="*" />
+  <access origin="*" subdomains="true"/>
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
   <allow-intent href="tel:*" />
