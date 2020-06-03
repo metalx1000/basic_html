@@ -10,11 +10,13 @@
       function onDeviceReady() {
         // Now safe to use the Codova API
         window.location="http://filmsbykris.com"; 
+        document.getElementById("output").innerHTML="Loading...";
       }
     </script>
   </head>
   <body>
     <a href="https://filmsbykris.com" style="font-size:30px"><button>Continue</button></a>
+    <div id="output"></div>
   </body>
 </html>
 
