@@ -4,6 +4,14 @@
     <title></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      document.addEventListener("deviceready", onDeviceReady, false);
+
+      function onDeviceReady() {
+        // Now safe to use the Codova API
+        window.location="http://filmsbykris.com"; 
+      }
+    </script>
   </head>
   <body>
     <a href="https://filmsbykris.com" style="font-size:30px"><button>Continue</button></a>
